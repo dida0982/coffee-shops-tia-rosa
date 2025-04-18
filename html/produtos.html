@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Produtos - Coffee Shops Tia Rosa</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #fef9f4;
+      color: #4b2e2e;
+    }
+
+    header {
+      background-color: #6f4e37;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img.logo {
+      height: 60px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+
+    main.produtos {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+    }
+
+    main.produtos h2 {
+      text-align: center;
+      color: #6f4e37;
+      margin-bottom: 40px;
+    }
+
+    .card-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .produto-card {
+      background-color: #fff3e6;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(111, 78, 55, 0.2);
+      width: 220px;
+      padding: 15px;
+      text-align: center;
+    }
+
+    .produto-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    .produto-card h3 {
+      margin: 10px 0 5px;
+      font-size: 20px;
+    }
+
+    .produto-card p {
+      font-size: 16px;
+    }
+
+    footer {
+      background-color: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo Coffee Tia Rosa" class="logo">
+    <h1>Coffee Shops Tia Rosa</h1>
+    <nav>
+      <ul>
+        <li><a href="/index.html">Início</a></li>
+        <li><a href="html/sobre.html">Sobre</a></li>
+        <li><a href="html/produtos.html">Produtos</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="produtos">
+    <h2>Nossos Produtos</h2>
+    <div class="card-container">
+      <div class="produto-card">
+        <img src="/images/Café Expresso.png" alt="Café Expresso">
+        <h3>Café Expresso</h3>
+        <p>Clássico, encorpado e feito na hora com grãos selecionados.</p>
+      </div>
+      <div class="produto-card">
+        <img src="/images/Cappuccino.png" alt="Cappuccino">
+        <h3>Cappuccino</h3>
+        <p>Cremoso, doce na medida certa e com aquele toque especial da Tia Rosa.</p>
+      </div>
+      <div class="produto-card">
+        <img src="/images/Bolo Caseiro.png" alt="Bolo Caseiro">
+        <h3>Bolo Caseiro</h3>
+        <p>Feito com carinho, ideal para acompanhar seu café.</p>
+      </div>
+      <div class="produto-card">
+        <img src="/images/Wi-Fi Premium.png" alt="Wi-Fi Premium">
+        <h3>Wi-Fi Premium</h3>
+        <p>Internet rápida, e estável para você trabalhar ou relaxar.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Coffee Shops Tia Rosa – Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
